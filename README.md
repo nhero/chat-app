@@ -22,7 +22,7 @@ Open 'User 1 Chat' [http://localhost:3000/user/1](http://localhost:3000/user/1) 
 
 I have been working with Angular which relies heavily on RxJS and services that return Observables that you inject into the component and subscribe to. I was going to set things up this way and when it came time to create the service I realized that React doesn't use the same approach. I figured I could use Node.js and Express to save the messages to a file since I was familiar with using them to retrieve data from databases. The file serves as a temporary database and could easily be replaced with a real one at some point. If I had more time I would look into a more React specific approach such as Redux.
 
-### Potential Future Enhanements
+### Potential Future Enhancements
 
 - Login screen
 - Sanitize Data before submitting to API
